@@ -1,0 +1,111 @@
+body{box-shadow: 10px -10px 8px 10px;} /*I know this hasn't been discussed, but I 
+searched online since my website felt so flat without it.*/
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.nonTitles{font-family: "Playfair Display";}
+.titles{font-family: "Playfair Display Black";}
+.banner_home{
+    background-image: url("images/homepage_image.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.banner_guidelines{
+    background-image: url("images/guideline_image.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+.tab_bar{
+    color: black;
+    font-family: "Playfair Display Black";
+    text-align: center; 
+    background-color:rgb(217, 211, 171);
+    width: 100%;
+    position: fixed;
+    box-shadow: 10px -10px 8px 8px;
+    z-index: 2;
+}
+div.tab_bar div,div.tab_bar a{
+    padding: 5px;
+    float: left;
+    width: 24.2%; /*This value seems to work better in my computer than 25%.*/
+    border-bottom: 1px solid black; 
+    text-decoration: none;
+}
+div.tab_bar div:hover, div.tab_bar a:hover{
+    background-color: rgb(255, 252, 235);
+    /*This hasn't been discussed, but I just wanted to have this on my website since I see it a lot,
+    and it visually enhances the "static" tabs.*/
+}
+.body_alt{
+    background-color:beige; 
+    border: solid 1px;
+    box-shadow: 0px 2px 8px 0px gray;
+    z-index: 0;
+}
+.body_alt_float{
+    background-color:rgb(241, 245, 210);
+    border: solid 1px;
+    width: 100%;
+    box-shadow: 0px 2px 5px 0px gray;
+
+}
+.text_block{
+    text-align:justify;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.imgp2_first{
+    float: right;
+    width: 400px;
+    right:0px;
+    position: relative; 
+    bottom: 50px;
+    z-index: 1;
+}
+.imgp2_second{
+    float: right;
+    width: 350px;
+    right: 25px;
+    position: relative; 
+    bottom: 50px;
+    z-index: 1;
+}
+.container_p1{
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+    margin-bottom: 50px;
+}
+.box_p1{
+    border: 1px solid black;
+    background-color: rgb(241, 245, 210);
+    box-shadow: 0px 2px 5px 0px gray;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.odette{
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+.bgcolor_alt{
+    background-color: rgb(248, 248, 234);
+    padding-bottom: 50px;
+    box-shadow: 0px 2px 8px 0px black;
+}
