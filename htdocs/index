@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Parasol: Home</title>
+	    <meta charset="UTF-8">
+	    <meta name="author" content="Raphael Jacob Santos">
+	    <meta name="keywords" content="HTML">
+	    <meta name="revised" content="10 - 20 - 2021">
+
+        <link rel="stylesheet" type="text/css" href="../css.css">
+        <link rel="icon" type="image/gif" href="../images/icon.png">
+    </head>
+
+    <body>
+        <nav><div class="tab_bar"> 
+                <a href="page2.html">Typhoon Guidelines</a>
+                <div>Typhoon Tracker</div>
+                <div>Entertaining Stories</div>
+                <div>Pastime Quizzes</div>
+            </div></nav>
+
+        <header class="banner_home"></header>
+        
+        <br>
+
+        <article>
+            <h2 class="titles"><center>What You'll Find Here</center></h2>
+            <p class="nonTitles text_block"><i>Parasol is a multipurpose website project dedicated to Filipinos facing typhoon season. Our goal 
+            is to inform Filipinos about nearby storms, help them prepare for large-scale typhoons, and keep them entertained inside in case of one.
+            No Filipino should be left out in the heavy rain with no help or hope, and Parasol is part of that cause.</i>
+            </p>
+        </article>
+
+        <br><br>
+
+        <section class="container_p1">
+            <div class="box_p1">
+                <h2 class="titles">Typhoon Guidelines</h2>
+                <p class="nonTitles">A page for Filipinos who wish to keep safe before, during, and after a storm. This 
+                page includes tips for preparation, kit assembly, and safety during a heavy typhoon.</p>
+            </div>
+            <div class="box_p1">
+                <h2 class="titles">Typhoon Tracker</h2>
+                <p class="nonTitles">A page meant to kee track of typhoons or tropical depressions within or just outside
+                the proximity of the country. This page is ideally frequently updated.</p>
+            </div>
+            <div class="box_p1">
+                <h2 class="titles">Entertaining Stories</h2>
+                <p class="nonTitles">A page containing short, weather-related stories to entertain Filipinos stuck inside, 
+                either due to bad weather, a heavy typhoon, or the deadly pandemic.</p>
+            </div>
+            <div class="box_p1">
+                <h2 class="titles">Pastime Quizzes</h2>
+                <p class="nonTitles">A page similar to the Story Page, containing short entertaining quizzes to pass time
+                while in the midst of the pandemic, bad weather, or a heavy typhoon.</p>
+            </div>
+        </section>
+
+        <article class="bgcolor_alt">
+            <h2 class="titles"><center>Breaking News: NDRRMC announces Typhoon Odette's exit out of the Philippines</center></h2> <br>
+            <iframe class="odette" width="560" height="315" 
+            src="https://www.youtube.com/embed/3QXH7sPQ-88?autoplay=1&mute=1&control=1">
+            </iframe> <br>
+            <p class="nonTitles text_block">Last December 18, The National Disaster Risk Reduction and Management Council (NDRRMC) reported
+                that Typhoon Odette had left the Philippine Area of Responsibility during noon of that day. The typhoon, which NDRRMC said
+                killed 31 in parts of Mindanao and Visayas, was one of 2021's deadliest and most destructive typhoons.
+            </p>
+        </article>
+        
+        <footer>
+            <div class="body_alt_float">
+                <h2 class="titles">References</h2>
+                <p class="nonTitles">Tantuco, V. (18 December 2021). <i>NDRRMC reports 31 deaths due to Typhoon Odette.</i> 
+                    rappler.com/nation/ndrrmc-report-death-toll-typhoon-odette-december-18-2021/</p>
+                <p class="nonTitles">Manila Bulletin Online (16 December 2021). <i>Typhoon Odette lashes in Siargao [Youtube Video].</i> 
+                    www.youtube.com/watch?v=3QXH7sPQ-88&t=3s</p>
+                <p class="nonTitles"> <i>Typhoon Haiyan Devastation [PNG].</i> (2013). 
+                    qz.com/145624/should-the-philippines-bill-developed-nations-for-the-damage-from-typhoon-haiyan/</p>
+            </div>
+        </footer>
+    </body>
+</html>
