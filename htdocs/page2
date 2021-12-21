@@ -15,7 +15,7 @@
     <body>
 
         <nav><div class="tab_bar"> 
-            <a href="index.html">Homepage</a>
+            <a href="../index.html">Homepage</a>
             <div>Typhoon Tracker</div>
             <div>Entertaining Stories</div>
             <div>Pastime Quizzes</div>
