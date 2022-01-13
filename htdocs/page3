@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Parasol: Tracker</title>
+	    <meta charset="UTF-8">
+	    <meta name="author" content="Raphael Jacob Santos">
+	    <meta name="keywords" content="HTML">
+	    <meta name="revised" content="10 - 02 - 2021">
+        
+        <link rel="stylesheet" type="text/css" href="../css.css">
+        <link rel="icon" type="image/gif" href="../images/icon.png">
+    </head>
+    
+    <body>
+
+        <nav><div class="tab_bar"> 
+            <a href="index.html">Homepage</a>
+            <div>Typhoon Tracker</div>
+            <div>Entertaining Stories</div>
+            <div>Pastime Quizzes</div>
+        </div></nav>
+        
+    </body>
+</html>
