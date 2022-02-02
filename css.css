@@ -5,6 +5,8 @@ body, html {
     margin: 0;
 }
 .nonTitles{font-family: "Playfair Display";}
+.nonTitles:link{text-decoration: none; color: black;}
+.nonTitles:visited{text-decoration: none; color: black;}
 .titles{font-family: "Playfair Display Black";}
 .banner_home{
     background-image: url("images/homepage_image.png");
