@@ -47,6 +47,7 @@ body, html {
     position: fixed;
     box-shadow: 10px -10px 8px 8px;
     z-index: 2;
+    border-bottom: 1px solid black;
 }
 div.tab_bar div,div.tab_bar a{
     padding: 5px;
