@@ -30,6 +30,14 @@ body, html {
     background-size: cover;
     background-attachment:fixed;
 }
+.banner_stories{
+    background-image: url("images/story_image.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
 .tab_bar{
     color: black;
     font-family: "Playfair Display Black";
