@@ -51,7 +51,7 @@ body, html {
 div.tab_bar div,div.tab_bar a{
     padding: 5px;
     float: left;
-    width: 24.2%; /*This value seems to work better in my computer than 25%.*/
+    width: 20%; /*This value seems to work better in my computer than 25%.*/
     border-bottom: 1px solid black; 
     text-decoration: none;
 }
