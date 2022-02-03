@@ -106,8 +106,9 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     text-align: center;
     width: 250px;
 }
-.box_p1:link{text-decoration: none; color: black;}
-.box_p1:visited{text-decoration: none; color: black;}
+a.box_p1:link{text-decoration: none; color: black;}
+a.box_p1:visited{text-decoration: none; color: black;}
+a.box_p1:hover{background-color: rgb(255, 252, 235);}
 
 .odette{
     display: block;
