@@ -150,3 +150,25 @@ a.box_p1:hover{background-color: rgb(255, 252, 235);}
 .noBullets{
     list-style-type: none;
 }
+@keyframes in_and_out {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+img.imgp3_first {
+animation-name: in_and_out;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+animation-direction: alternate;
+}
