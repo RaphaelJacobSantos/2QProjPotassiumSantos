@@ -122,6 +122,7 @@ div.tab_bar div:hover, div.tab_bar a:hover{
 .imgp3_second:hover{
     animation-name: fadein_out;
     animation-duration: 2s;
+    antimation-direction: alternate;
     opacity: 1;
 }
 @keyframes fadein_out{
