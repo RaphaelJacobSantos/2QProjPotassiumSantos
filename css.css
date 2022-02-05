@@ -107,7 +107,7 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     height: 250px;
     right: 100px;
     position: relative; 
-    bottom: 25px;
+    bottom: 37.5px;
     z-index: 1;
     vertical-align: center;
 }
