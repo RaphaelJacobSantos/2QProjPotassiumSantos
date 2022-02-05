@@ -157,9 +157,9 @@ div.tab_bar div:hover, div.tab_bar a:hover{
 .imgp3_second{
     position: absolute;
     float: right;
-    right: 101px;
+    right: 100px;
     height: 300px;
-    bottom: -485px; /*these specific values work best for me for some reason*/
+    bottom: 37.5px; /*these specific values work best for me for some reason*/
     z-index: 2;
     opacity: 0;
     animation-name: fadein_out;
