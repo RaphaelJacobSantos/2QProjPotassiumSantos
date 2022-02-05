@@ -126,7 +126,8 @@ div.tab_bar div:hover, div.tab_bar a:hover{
 }
 @keyframes fadein_out{
     0%{opacity: 0;}
-    10%{opacity: 1;}
+    20%{opacity: 1;}
+    70%{opacity: 0;}
     100%{opacity: 0;}
 }
 .container_p1{
