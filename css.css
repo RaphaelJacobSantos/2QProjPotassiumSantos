@@ -118,17 +118,15 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     bottom: 37.5px;
     z-index: 2;
     opacity: 0;
-}
-.imgp3_second:hover{
     animation-name: fadein_out;
-    animation-duration: 2s;
-    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-delay: 5s;
     animation-timing-function: ease-in-out;
-    opacity: 1;
 }
 @keyframes fadein_out{
     0%{opacity: 0;}
-    100%{opacity: 1;}
+    10%{opacity: 1;}
+    100%{opacity: 0;}
 }
 .container_p1{
     padding-left: 50px;
