@@ -103,9 +103,9 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     z-index: 1;
 }
 #tracker_slides{
-    left: 100px;
+    right: 100px;
     height: 300px;
-    top: 37.5px;
+    bottom: 37.5px;
 }
 .imgp3_first{
     position: relative; 
