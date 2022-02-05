@@ -53,17 +53,60 @@ body, html {
     background-color:rgb(217, 211, 171);
     width: 100%;
     position: fixed;
-    box-shadow: 10px -10px 8px 8px;
-    z-index: 3;
+    box-shadow: 0px 2px 8px 0px black;
+    z-index: 4;
+    top: 43px;
     border-bottom: 1px solid black;
+}
+.sprite_bar{
+    color: black;
+    font-family: "Playfair Display Black";
+    text-align: center; 
+    background-color:rgb(217, 211, 171);
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+}
+.sprite_bar li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    display: block;
+}
+.fbsprite{
+    background: url('images/sprites.png') no-repeat 0px 0px;
+    width: 43.5px;
+    height: 43px;
+    z-index: 5;
+    left: 0px;
+    position: absolute;
+}
+.redditsprite{
+    background: url('images/sprites.png') no-repeat -108px -0.4px;
+    width: 43.5px;
+    height: 43px;
+    left: 100px;    
+    z-index: 6;
+    position: absolute;
+}
+.twtsprite{
+    background: url('images/sprites.png') no-repeat -217px -1px;
+    width: 43.5px;
+    height: 43px;
+    left: 200px;    
+    z-index: 7;
+    position: absolute;
 }
 div.tab_bar div,div.tab_bar a{
     padding: 5px;
     float: left;
     width: 24.2%; /*This value seems to work better in my computer than 25%.*/
-    border-bottom: 1px solid black; 
     text-decoration: none;
 }
+div.tab_bar a:link{color: black;}
+div.tab_bar a:visited{color: black;}
 div.tab_bar div:hover, div.tab_bar a:hover{
     background-color: rgb(255, 252, 235);
     /*This hasn't been discussed, but I just wanted to have this on my website since I see it a lot,
@@ -109,25 +152,26 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     z-index: 1;
     right: 100px;
     bottom: 37.5px;
+    box-shadow: 0px 2px 8px 0px black;
 }
 .imgp3_second{
     position: absolute;
     float: right;
-    right: 100px;
+    right: 101px;
     height: 300px;
-    bottom: 37.5px;
+    bottom: -485px; /*these specific values work best for me for some reason*/
     z-index: 2;
     opacity: 0;
     animation-name: fadein_out;
-    animation-duration: 5s;
-    animation-delay: 1s;
+    animation-duration: 7s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 @keyframes fadein_out{
     0%{opacity: 0;}
-    20%{opacity: 1;}
-    70%{opacity: 0;}
+    5%{opacity: 0;}
+    50%{opacity: 1;}
+    95%{opacity: 0;}
     100%{opacity: 0;}
 }
 .container_p1{
@@ -169,4 +213,5 @@ a.box_p1:hover{background-color: rgb(255, 252, 235);}
 .noBullets{
     list-style-type: none;
 }
+
 
