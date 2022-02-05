@@ -102,18 +102,17 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     bottom: 50px;
     z-index: 1;
 }
-.imgp3_first{
+#tracker_slides{
     float: right;
-    height: 250px;
     right: 100px;
-    position: relative; 
+    height: 250px;
     bottom: 37.5px;
+}
+.imgp3_first{
+    position: relative; 
     z-index: 1;
 }
 .imgp3_second{
-    float: right;
-    height: 250px;
-    right: 0px;
     position: relative; 
     z-index: 2;
     opacity: 0;
