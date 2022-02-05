@@ -115,7 +115,7 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     float: right;
     right: 100px;
     height: 300px;
-    bottom: 0px;
+    bottom: 37.5px;
     z-index: 2;
     opacity: 0;
     animation-name: fadein_out;
