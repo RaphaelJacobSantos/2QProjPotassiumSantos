@@ -111,6 +111,15 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     z-index: 1;
     vertical-align: center;
 }
+.imgp3_second{
+    float: right;
+    height: 250px;
+    right: 100px;
+    position: relative; 
+    bottom: 37.5px;
+    z-index: 2;
+    vertical-align: center;
+}
 .container_p1{
     padding-left: 50px;
     padding-right: 50px;
@@ -150,25 +159,4 @@ a.box_p1:hover{background-color: rgb(255, 252, 235);}
 .noBullets{
     list-style-type: none;
 }
-@keyframes in_and_out {
-  0% {
-  opacity:1;
-}
-45% {
-opacity:1;
-}
-55% {
-opacity:0;
-}
-100% {
-opacity:0;
-}
-}
 
-img.imgp3_first {
-animation-name: in_and_out;
-animation-timing-function: ease-in-out;
-animation-iteration-count: infinite;
-animation-duration: 5s;
-animation-direction: alternate;
-}
