@@ -102,17 +102,19 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     bottom: 50px;
     z-index: 1;
 }
-#tracker_slides{
+.imgp3_first{
+    position: relative;
+    float: right;
+    height: 300px;
+    z-index: 1;
+    right: 100px;
+    bottom: 37.5px;
+}
+.imgp3_second{
+    position: absolute; 
     right: 100px;
     height: 300px;
     bottom: 37.5px;
-}
-.imgp3_first{
-    position: relative; 
-    z-index: 1;
-}
-.imgp3_second{
-    position: relative; 
     z-index: 2;
     opacity: 0;
     animation-name: fadein_out;
