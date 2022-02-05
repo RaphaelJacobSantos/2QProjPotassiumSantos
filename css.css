@@ -103,6 +103,14 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     bottom: 50px;
     z-index: 1;
 }
+.imgp3_first{
+    float: right;
+    width: 400px;
+    right:100px;
+    position: relative; 
+    bottom: 50px;
+    z-index: 1;
+}
 .container_p1{
     padding-left: 50px;
     padding-right: 50px;
