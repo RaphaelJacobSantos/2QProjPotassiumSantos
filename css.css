@@ -159,7 +159,7 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     float: right;
     right: 101px;
     height: 300px;
-    bottom: 0px; /*these specific values work best for me for some reason*/
+    bottom: -485px; /*these specific values work best for me for some reason*/
     z-index: 2;
     opacity: 0;
     animation-name: fadein_out;
