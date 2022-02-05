@@ -120,7 +120,7 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     opacity: 0;
     animation-name: fadein_out;
     animation-duration: 5s;
-    animation-delay: 5s;
+    animation-delay: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
