@@ -104,7 +104,7 @@ div.tab_bar div:hover, div.tab_bar a:hover{
 }
 .imgp3_first{
     float: right;
-    height: 250px;
+    height: 85%;
     right: 100px;
     position: relative; 
     bottom: 37.5px;
