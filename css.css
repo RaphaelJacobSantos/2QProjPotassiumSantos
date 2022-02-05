@@ -118,6 +118,7 @@ div.tab_bar div:hover, div.tab_bar a:hover{
     bottom: 37.5px;
     z-index: 2;
     vertical-align: center;
+    opacity: 0;
 }
 .imgp3_second:hover{
     animation-name: fadein_out;
