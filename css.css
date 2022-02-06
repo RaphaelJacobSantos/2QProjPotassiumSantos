@@ -99,6 +99,9 @@ body, html {
     z-index: 7;
     position: absolute;
 }
+.fbsprite:hover{background: url('images/sprites_hover.png') no-repeat 0px 0px;}
+.redditsprite:hover{background: url('images/sprites_hover.png') no-repeat -108px -0.4px;}
+.twtsprite:hover{background: url('images/sprites_hover.png') no-repeat -217px -1px;}
 div.tab_bar div,div.tab_bar a{
     padding: 5px;
     float: left;
@@ -107,11 +110,7 @@ div.tab_bar div,div.tab_bar a{
 }
 div.tab_bar a:link{color: black;}
 div.tab_bar a:visited{color: black;}
-div.tab_bar div:hover, div.tab_bar a:hover{
-    background-color: rgb(255, 252, 235);
-    /*This hasn't been discussed, but I just wanted to have this on my website since I see it a lot,
-    and it visually enhances the "static" tabs.*/
-}
+div.tab_bar div:hover, div.tab_bar a:hover{background-color: rgb(255, 252, 235);}
 .body_alt{
     background-color:beige; 
     border: solid 1px;
