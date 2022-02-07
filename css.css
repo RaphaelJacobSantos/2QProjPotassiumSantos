@@ -178,7 +178,7 @@ div.tab_bar div:hover, div.tab_bar a:hover{background-color: rgb(255, 252, 235);
     padding-right: 50px;
     float: left;
     margin-bottom: 50px;
-    width: 100; 
+    width: 100%; 
 }
 .box_p1{
     border: 1px solid black;
